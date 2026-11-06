@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reel Monster</string>
+    <string name="app_tagline">A cute monster that counts every reel you watch.</string>
+    <string name="today_reels">Today: %1$d reels</string>
+    <string name="time_lost_estimate">Estimated time lost today: about %1$d minutes (at %2$d seconds per reel — an estimate, not a measurement)</string>
+    <string name="day_row">%1$s — %2$d reels</string>
+    <string name="start_monster">Start the monster bubble</string>
+    <string name="stop_monster">Stop the monster bubble</string>
+    <string name="undo_tap">Undo last tap (−1)</string>
+    <string name="reset_today">Reset today</string>
+    <string name="reset_confirm_title">Reset today’s count?</string>
+    <string name="reset_confirm_message">Today’s reel count will go back to 0. Counts from earlier days are kept.</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="level_heading">Your level</string>
+    <string name="level1_label">Level 1 — Manual: tap the monster after each reel</string>
+    <string name="level2_label">Level 2 — Automatic: the monster counts each reel itself</string>
+    <string name="level1_status">Level 1 manual: tap the monster after each reel.</string>
+    <string name="level1_status_service_on">Level 1 manual is selected. The Accessibility service is on — tap Level 2 above to switch to automatic counting.</string>
+    <string name="level2_enable_prompt">Level 2 needs the Accessibility permission. Opening Accessibility settings — turn on Reel Monster there, then come back and tap Level 2 again.</string>
+    <string name="level2_enabled">Level 2 automatic counting is on. The monster counts each reel you swipe to in Instagram and YouTube.</string>
+    <string name="level2_status_on">Level 2 automatic: on — the monster counts reels itself in Instagram and YouTube.</string>
+    <string name="level2_status_off">Level 2 automatic is selected, but the Accessibility service is off. Open Accessibility settings and turn on Reel Monster.</string>
+    <string name="accessibility_service_label">Reel Monster</string>
+    <string name="accessibility_service_description">Lets Reel Monster count reels automatically. It only listens for scrolling in Instagram and YouTube, never reads screen text, and sends nothing anywhere.</string>
+    <string name="settings_heading">Settings</string>
+    <string name="seconds_per_reel_label">Seconds per reel (used only for the “time lost” estimate):</string>
+    <string name="seconds_hint">30</string>
+    <string name="seconds_invalid">Enter a number between 5 and 300 seconds.</string>
+    <string name="seconds_saved">Saved.</string>
+    <string name="save">Save</string>
+    <string name="last_7_days_heading">Last 7 days</string>
+    <string name="how_to_use">How to use: tap “Start the monster bubble”, allow “Display over other apps”, then open Instagram or YouTube. Level 1: tap the monster once after each reel you watch. Level 2: turn on Reel Monster in Accessibility settings and the monster counts each reel itself. Drag the monster to move it. Long-press it to open this app.</string>
+    <string name="monster_ready">Monster bubble: ready — tap Start to show it.</string>
+    <string name="monster_needs_permission">Monster bubble: needs the “Display over other apps” permission — tap Start and allow it.</string>
+    <string name="overlay_denied">The monster needs “Display over other apps” to float on Instagram and YouTube. You can allow it later from the app settings.</string>
+    <string name="monster_started">Monster bubble started. Open Instagram or YouTube and tap the monster after each reel.</string>
+    <string name="monster_stopped">Monster bubble stopped.</string>
+    <string name="monster_bubble_description">Reel Monster bubble. Tap after each reel you watch.</string>
+    <string name="notification_channel_name">Monster bubble</string>
+    <string name="notification_channel_description">Keeps the Reel Monster bubble visible while you use other apps.</string>
+    <string name="notification_title">Reel Monster is watching</string>
+    <string name="notification_text">Today: %1$d reels counted</string>
+</resources>

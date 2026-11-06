@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cute monster face, drawn from shapes so no image file is needed. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Body -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#58B368" />
+        </shape>
+    </item>
+    <!-- Left eye (white) -->
+    <item
+        android:width="22dp"
+        android:height="26dp"
+        android:gravity="top|left"
+        android:top="16dp"
+        android:left="14dp">
+        <shape android:shape="oval">
+            <solid android:color="#FFFFFF" />
+        </shape>
+    </item>
+    <!-- Right eye (white) -->
+    <item
+        android:width="22dp"
+        android:height="26dp"
+        android:gravity="top|right"
+        android:top="16dp"
+        android:right="14dp">
+        <shape android:shape="oval">
+            <solid android:color="#FFFFFF" />
+        </shape>
+    </item>
+    <!-- Left pupil -->
+    <item
+        android:width="10dp"
+        android:height="12dp"
+        android:gravity="top|left"
+        android:top="24dp"
+        android:left="20dp">
+        <shape android:shape="oval">
+            <solid android:color="#1C2430" />
+        </shape>
+    </item>
+    <!-- Right pupil -->
+    <item
+        android:width="10dp"
+        android:height="12dp"
+        android:gravity="top|right"
+        android:top="24dp"
+        android:right="20dp">
+        <shape android:shape="oval">
+            <solid android:color="#1C2430" />
+        </shape>
+    </item>
+    <!-- Smile -->
+    <item
+        android:width="30dp"
+        android:height="14dp"
+        android:gravity="bottom|center"
+        android:bottom="14dp">
+        <shape android:shape="oval">
+            <solid android:color="#1C2430" />
+        </shape>
+    </item>
+</layer-list>

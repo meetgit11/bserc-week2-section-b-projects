@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bill Book</string>
+    <string name="new_bill">+ New bill</string>
+    <string name="bill_detail">Bill</string>
+    <string name="items_title">Items</string>
+    <string name="shop_profile">Shop profile</string>
+    <string name="today_total">Today — total sales: %1$s</string>
+    <string name="no_bills_yet">No bills yet. Tap “+ New bill” to make your first one.</string>
+    <string name="history_row">Bill #%1$d · %2$s %3$s · %4$s</string>
+    <string name="bill_history">Bill history</string>
+    <string name="sample_upi_warning">SAMPLE DATA: the UPI ID is the fake sample “sharmastores@okhdfc”. Replace it with your own UPI ID in Shop profile before taking real payments.</string>
+    <string name="pick_items_hint">Tap + / − to set quantities:</string>
+    <string name="item_row_label">%1$s — %2$s</string>
+    <string name="discount_label">Discount (%)</string>
+    <string name="tax_label">Tax (%)</string>
+    <string name="totals_breakdown">Subtotal: %1$s\nDiscount: −%2$s\nTax: +%3$s\nTotal: %4$s</string>
+    <string name="save_bill">Save bill</string>
+    <string name="bill_empty">Add at least one item to the bill first.</string>
+    <string name="percent_invalid">Discount and tax must be between 0 and 100.</string>
+    <string name="bill_saved">Bill #%1$d saved.</string>
+    <string name="bill_title">%1$s — Bill #%2$d</string>
+    <string name="bill_date">%1$s at %2$s</string>
+    <string name="bill_line_row">%1$s × %2$d @ %3$s = %4$s</string>
+    <string name="bill_not_found">That bill could not be found.</string>
+    <string name="qr_description">UPI QR code for this bill’s total. Scan it in any UPI app to pay.</string>
+    <string name="scan_to_pay">Scan with any UPI app to pay this exact total. Nothing is paid until you confirm in your UPI app.</string>
+    <string name="share_as_image">Share bill as image</string>
+    <string name="share_as_text">Share bill as text</string>
+    <string name="share_bill">Share bill</string>
+    <string name="share_text">Bill #%2$d from %1$s — total %3$s. Pay via UPI using the QR code in the shared image.</string>
+    <string name="add_item_heading">Add an item</string>
+    <string name="item_name_hint">Item name, e.g. Rice 2 kg</string>
+    <string name="item_unit_hint">Unit, e.g. pack</string>
+    <string name="item_price_hint">Price in ₹, e.g. 120</string>
+    <string name="add_item">Add item</string>
+    <string name="delete">Delete</string>
+    <string name="item_invalid">Enter a name and a price above ₹0.</string>
+    <string name="shop_name_label">Shop name</string>
+    <string name="shop_name_hint">e.g. Sharma Stores</string>
+    <string name="upi_id_label">UPI ID</string>
+    <string name="upi_id_hint">e.g. yourname@okhdfc</string>
+    <string name="upi_id_help">This UPI ID goes into every bill’s QR code. Use your own UPI ID, not anyone else’s.</string>
+    <string name="profile_invalid">Enter a shop name and a UPI ID (it must contain @).</string>
+    <string name="profile_saved">Shop profile saved.</string>
+    <string name="save">Save</string>
+</resources>
